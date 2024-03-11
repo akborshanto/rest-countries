@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './countriy.css'
+import CountryDetail from '../countryDetail/CountryDetail'
 const Country = ({item,visitedHandle,hangleFlag}) => {
     //console.log(hangleFlag)
 //console.log(handleVisited.target)
@@ -28,6 +29,14 @@ setItem(!items)
     items ? "nadia aktyere":"akbor shanto"
     
 }
+
+
+<CountryDetail item={item} visitedHandle={visitedHandle}
+hangleFlag={hangleFlag}
+>
+
+</CountryDetail>
+
     </div>
   )
 }
