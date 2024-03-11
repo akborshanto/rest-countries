@@ -3,4 +3,16 @@
     background-color: skyblue;
     color: white;
     /* text-align: center; */
+
+}
+
+.visited{
+    background-color: red;
+}
+.non-visited{
+    background-color: green;
+}
+.blue{
+    color: blue;
+    
 }
